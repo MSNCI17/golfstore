@@ -1,24 +1,28 @@
-# README
+# Demo Golfstore Rails app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example of a basic REST API to perform CRUD functions,build using AWS C9 platform
 
-Things you may want to cover:
+Basic User login/logout functionality 
 
-* Ruby version
+$ rails generate controller User  
 
-* System dependencies
+and a basic CART controller
 
-* Configuration
+$ rails generate controller Cart index
 
-* Database creation
 
-* Database initialization
+Uses Sqlite3 by default.
 
-* How to run the test suite
+Ruby 2.6.3
 
-* Services (job queues, cache servers, search engines, etc.)
+Rails 5.0.
 
-* Deployment instructions
 
-* ...
+# INSTALL DEPENDENCIES
+$ bundle install
+
+# RUN MIGRATION
+$ rails db:migrate
+
+# RUN SERVER
+$ rails server -b $IP -p $PORT
