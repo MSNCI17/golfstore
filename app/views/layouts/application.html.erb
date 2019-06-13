@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Golfstore</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track'=> true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id='header'>
+      <!-- Header Image Displays Here -->
+    </div>
+    <div id='menu'>
+      <div id="navbar">
+        <ul>
+          <li><a href="/items">Products</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/Admin">Login</a></li>
+          <li><a href="/logout">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id='container'>
+      <div id ='content'>
+        <p class="notice"><%= flash[:notice] %></p>
+          <%= yield %>
+      </div>
+      <div id='first-column'>
+        <div class= "loginbox">
+          <h2 class="BoxHeaders">Login Here...</h2>
+        </div>
+        <div class="searchBox loginbox">
+          <h2 class="BoxHeaders">Search Catalog</h2>
+        </div>
+      </div>
+    </div>
+    <div id='footer'>
+      <h6 class="footertext">&copy; Online Golf Store &trade;2019</h6>
+    </div>
+   </body>
+</html>
