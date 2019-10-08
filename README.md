@@ -19,10 +19,20 @@ Rails 5.0.
 
 
 # INSTALL DEPENDENCIES
+```
 $ bundle install
-
+```
 # RUN MIGRATION
+```
 $ rails db:migrate
+```
 
 # RUN SERVER
+```
 $ rails server -b $IP -p $PORT
+or
+$ rails s
+```
+
+# Images
+
