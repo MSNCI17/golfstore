@@ -35,4 +35,7 @@ $ rails s
 ```
 
 # Images
+<img src = "app/images/Golfdemostore-home.png">
+
+
 
