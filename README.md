@@ -1,3 +1,6 @@
+**#"This repository is archived and no longer maintained"**
+
+
 # Demo Golfstore Rails app
 
 Example of a basic REST API to perform CRUD functions,build using AWS C9 platform
