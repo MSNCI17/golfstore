@@ -1,0 +1,18 @@
+current directory: /home/micks/Documents/GIT-GITHUB/Git-Hub_Repos/Golfstore-master files/golfstore-master/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/usr/bin/ruby3.2 -I/usr/lib/ruby/vendor_ruby extconf.rb
+creating Makefile
+
+current directory: /home/micks/Documents/GIT-GITHUB/Git-Hub_Repos/Golfstore-master files/golfstore-master/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260514-24342-8gy31c sitelibdir\=./.gem.20260514-24342-8gy31c clean
+
+current directory: /home/micks/Documents/GIT-GITHUB/Git-Hub_Repos/Golfstore-master files/golfstore-master/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260514-24342-8gy31c sitelibdir\=./.gem.20260514-24342-8gy31c
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/micks/Documents/GIT-GITHUB/Git-Hub_Repos/Golfstore-master files/golfstore-master/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260514-24342-8gy31c sitelibdir\=./.gem.20260514-24342-8gy31c install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20260514-24342-8gy31c/racc
+
+current directory: /home/micks/Documents/GIT-GITHUB/Git-Hub_Repos/Golfstore-master files/golfstore-master/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260514-24342-8gy31c sitelibdir\=./.gem.20260514-24342-8gy31c clean
